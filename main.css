@@ -1,0 +1,34 @@
+
+body {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/aaef1d99197037.5eed1acef356c.png);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h2{
+    color: antiquewhite;
+}
+.container {
+    border-radius: 20px;
+    background-color: rgba(65, 101, 119, 0.959); 
+    padding: 16px;
+    display:block;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 900px;
+}
+
+input[type=text], input[type=email], input[type=tel]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label, footer{
+    color: antiquewhite;
+}
